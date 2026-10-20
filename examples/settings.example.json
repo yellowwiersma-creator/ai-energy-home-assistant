@@ -1,0 +1,43 @@
+{
+  "enabled": false,
+  "timezone": "Europe/Amsterdam",
+  "nordpool": {
+    "config_entry": "",
+    "area": "NL",
+    "currency": "EUR"
+  },
+  "entities": {
+    "zonneplan_current": "sensor.example_zonneplan_current",
+    "zonneplan_quarter_hourly": "sensor.example_zonneplan_quarter_hourly",
+    "entsoe_current": "sensor.example_entsoe_current",
+    "entsoe_average": "sensor.example_entsoe_average",
+    "nordpool_current": "sensor.example_nordpool_current",
+    "nordpool_previous": "sensor.example_nordpool_previous",
+    "nordpool_next": "sensor.example_nordpool_next",
+    "nordpool_low": "sensor.example_nordpool_low",
+    "nordpool_high": "sensor.example_nordpool_high",
+    "nordpool_average": "sensor.example_nordpool_average",
+    "nordpool_last_updated": "sensor.example_nordpool_last_updated",
+    "nordpool_tomorrow_available": "binary_sensor.example_nordpool_tomorrow_available",
+    "temperature": "sensor.example_temperature",
+    "wind_speed": "sensor.example_wind_speed",
+    "wind_direction": "sensor.example_wind_direction",
+    "wind_gust": "sensor.example_wind_gust",
+    "cloud_cover": "sensor.example_cloud_cover",
+    "humidity": "sensor.example_humidity",
+    "pressure": "sensor.example_pressure",
+    "rain_intensity": "sensor.example_rain_intensity",
+    "pv_actual": "sensor.example_pv_actual",
+    "pv_ai_actual": "sensor.example_pv_ai_actual",
+    "solcast_now": "sensor.example_solcast_now",
+    "solcast_today": "sensor.example_solcast_today",
+    "solcast_tomorrow": "sensor.example_solcast_tomorrow",
+    "solcast_this_hour": "sensor.example_solcast_this_hour",
+    "p1_power": "sensor.example_p1_power",
+    "p1_import_total": "sensor.example_p1_import_total",
+    "p1_export_total": "sensor.example_p1_export_total",
+    "golf_active": "binary_sensor.example_compute_busy"
+  },
+  "weather_entities": [],
+  "legacy_base_dir": ""
+}
