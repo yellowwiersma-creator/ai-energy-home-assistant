@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "entities": {
+    "vehicle_charging": {
+      "placeholder": "binary_sensor.ev_cloud_charging",
+      "domain": "binary_sensor",
+      "description": "Vehicle cloud charging state"
+    },
+    "vehicle_plugged": {
+      "placeholder": "binary_sensor.ev_cloud_plugged",
+      "domain": "binary_sensor",
+      "description": "Vehicle cloud plugged state"
+    },
+    "obd_ecu_online": {
+      "placeholder": "binary_sensor.ev_obd_ecu_online",
+      "domain": "binary_sensor",
+      "description": "Local OBD ECU communication state"
+    },
+    "vehicle_refresh": {
+      "placeholder": "button.ev_cloud_refresh",
+      "domain": "button",
+      "description": "Vehicle cloud refresh button; gated as an actuator"
+    },
+    "departure_calendar": {
+      "placeholder": "calendar.ev_departures",
+      "domain": "calendar",
+      "description": "Departure calendar used by the optional agenda workflow"
+    },
+    "notification_receiver": {
+      "placeholder": "notify.ev_owner",
+      "domain": "notify",
+      "description": "Notification entity; no personal receiver included"
+    },
+    "vehicle_ac_limit": {
+      "placeholder": "number.ev_cloud_ac_limit",
+      "domain": "number",
+      "description": "Vehicle AC charge limit in percent, independently confirmed before charging"
+    },
+    "charger_current": {
+      "placeholder": "number.ev_charger_current",
+      "domain": "number",
+      "description": "Charger current setting in amperes"
+    },
+    "charger_mode": {
+      "placeholder": "select.ev_charger_mode",
+      "domain": "select",
+      "description": "Charger mode selector; source recipe uses its native mode labels"
+    },
+    "obd_soc_display": {
+      "placeholder": "sensor.ev_obd_soc_display",
+      "domain": "sensor",
+      "description": "Local OBD display SOC in percent"
+    },
+    "price_forecast": {
+      "placeholder": "sensor.ai_energy_v11_dashboard_data",
+      "domain": "sensor",
+      "description": "AI Energy forecast contract; retail_cent is ct/kWh, 15-minute slots"
+    },
+    "vehicle_soc": {
+      "placeholder": "sensor.ev_cloud_soc",
+      "domain": "sensor",
+      "description": "Vehicle cloud SOC in percent"
+    },
+    "vehicle_updated_at": {
+      "placeholder": "sensor.ev_cloud_updated_at",
+      "domain": "sensor",
+      "description": "Vehicle-reported data update timestamp, not HA last_reported"
+    },
+    "obd_12v": {
+      "placeholder": "sensor.ev_obd_12v",
+      "domain": "sensor",
+      "description": "Local OBD 12 V supply measurement in volts"
+    },
+    "obd_uptime": {
+      "placeholder": "sensor.ev_obd_uptime",
+      "domain": "sensor",
+      "description": "Changing local OBD uptime proves a new received push"
+    },
+    "grid_import_power": {
+      "placeholder": "sensor.home_grid_import_power",
+      "domain": "sensor",
+      "description": "Positive grid import power in watts"
+    },
+    "grid_export_power": {
+      "placeholder": "sensor.home_grid_export_power",
+      "domain": "sensor",
+      "description": "Positive grid export power in watts"
+    },
+    "charger_session_energy": {
+      "placeholder": "sensor.ev_charger_session_energy",
+      "domain": "sensor",
+      "description": "Charger session energy in kWh; counter reset handling is retained"
+    },
+    "charger_status": {
+      "placeholder": "sensor.ev_charger_status",
+      "domain": "sensor",
+      "description": "Native charger state: no_ev_connected, suspended, charging"
+    },
+    "charger_power": {
+      "placeholder": "sensor.ev_charger_power",
+      "domain": "sensor",
+      "description": "Charger active power in watts"
+    },
+    "current_tariff": {
+      "placeholder": "sensor.energy_current_tariff",
+      "domain": "sensor",
+      "description": "Retail price in EUR/kWh with source forecast including feed-in components"
+    },
+    "charger_authorized": {
+      "placeholder": "switch.ev_charger_authorize",
+      "domain": "switch",
+      "description": "Charger authorization switch"
+    }
+  },
+  "device_ids": {
+    "vehicle_cloud": "__EV_VEHICLE_DEVICE_ID__"
+  },
+  "guarded_service_calls": 238,
+  "automation_count": 33
+}
