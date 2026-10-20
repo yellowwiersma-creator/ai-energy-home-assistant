@@ -1,0 +1,120 @@
+{
+  "synthetic": true,
+  "price_unit": "EUR/kWh",
+  "site_power_kw": 4.6,
+  "uncertainty_weight": 1.0,
+  "slots": [
+    {
+      "start": "2025-01-01T00:00:00+00:00",
+      "retail_eur_kwh": 0.24,
+      "source": "known",
+      "uncertainty_eur_kwh": 0.0
+    },
+    {
+      "start": "2025-01-01T00:15:00+00:00",
+      "retail_eur_kwh": 0.23,
+      "source": "known",
+      "uncertainty_eur_kwh": 0.0
+    },
+    {
+      "start": "2025-01-01T00:30:00+00:00",
+      "retail_eur_kwh": 0.21,
+      "source": "known",
+      "uncertainty_eur_kwh": 0.0
+    },
+    {
+      "start": "2025-01-01T00:45:00+00:00",
+      "retail_eur_kwh": 0.2,
+      "source": "known",
+      "uncertainty_eur_kwh": 0.0
+    },
+    {
+      "start": "2025-01-01T01:00:00+00:00",
+      "retail_eur_kwh": 0.18,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T01:15:00+00:00",
+      "retail_eur_kwh": 0.16,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T01:30:00+00:00",
+      "retail_eur_kwh": 0.15,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T01:45:00+00:00",
+      "retail_eur_kwh": 0.14,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T02:00:00+00:00",
+      "retail_eur_kwh": 0.12,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T02:15:00+00:00",
+      "retail_eur_kwh": 0.11,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T02:30:00+00:00",
+      "retail_eur_kwh": 0.1,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T02:45:00+00:00",
+      "retail_eur_kwh": 0.11,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T03:00:00+00:00",
+      "retail_eur_kwh": 0.13,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T03:15:00+00:00",
+      "retail_eur_kwh": 0.15,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T03:30:00+00:00",
+      "retail_eur_kwh": 0.16,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    },
+    {
+      "start": "2025-01-01T03:45:00+00:00",
+      "retail_eur_kwh": 0.17,
+      "source": "forecast",
+      "uncertainty_eur_kwh": 0.03
+    }
+  ],
+  "loads": [
+    {
+      "name": "EV example",
+      "energy_kwh": 3.6,
+      "power_kw": 3.6,
+      "earliest": "2025-01-01T00:00:00+00:00",
+      "deadline": "2025-01-01T04:00:00+00:00"
+    },
+    {
+      "name": "Hot water example",
+      "energy_kwh": 1.0,
+      "power_kw": 1.0,
+      "earliest": "2025-01-01T00:00:00+00:00",
+      "deadline": "2025-01-01T03:00:00+00:00"
+    }
+  ]
+}
