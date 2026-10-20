@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "entities": {
+    "vehicle_charging": "binary_sensor.ev_cloud_charging",
+    "vehicle_plugged": "binary_sensor.ev_cloud_plugged",
+    "obd_ecu_online": "binary_sensor.ev_obd_ecu_online",
+    "vehicle_refresh": "button.ev_cloud_refresh",
+    "departure_calendar": "calendar.ev_departures",
+    "notification_receiver": "notify.ev_owner",
+    "vehicle_ac_limit": "number.ev_cloud_ac_limit",
+    "charger_current": "number.ev_charger_current",
+    "charger_mode": "select.ev_charger_mode",
+    "obd_soc_display": "sensor.ev_obd_soc_display",
+    "price_forecast": "sensor.ai_energy_v11_dashboard_data",
+    "vehicle_soc": "sensor.ev_cloud_soc",
+    "vehicle_updated_at": "sensor.ev_cloud_updated_at",
+    "obd_12v": "sensor.ev_obd_12v",
+    "obd_uptime": "sensor.ev_obd_uptime",
+    "grid_import_power": "sensor.home_grid_import_power",
+    "grid_export_power": "sensor.home_grid_export_power",
+    "charger_session_energy": "sensor.ev_charger_session_energy",
+    "charger_status": "sensor.ev_charger_status",
+    "charger_power": "sensor.ev_charger_power",
+    "current_tariff": "sensor.energy_current_tariff",
+    "charger_authorized": "switch.ev_charger_authorize"
+  },
+  "device_ids": {
+    "vehicle_cloud": "__EV_VEHICLE_DEVICE_ID__"
+  },
+  "calendar_keywords": [
+    "charge",
+    ""
+  ],
+  "expected_charging_power_kw": 7.2,
+  "kwh_per_soc_percent": 0.7
+}
