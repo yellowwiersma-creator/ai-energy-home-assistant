@@ -1,0 +1,347 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 45,
+    "sha256": "93699a1108fd9da226b06f84ee12e317f4ea4d2f18a8fd05260443fd1bf2faef"
+  },
+  {
+    "path": ".github/workflows/tests.yml",
+    "bytes": 667,
+    "sha256": "6c60a161f25fe34a56190397aca7990cab0b4ddd7aade4b46943fd6eb8162e55"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 269,
+    "sha256": "27389d418fa8487c5afc7e61f0e77f0e8439bee8998459f13556c9937545534c"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 715,
+    "sha256": "cb42c5328871d18a8f76d9307dcc20680946c4bd4d7a5c3d41ced613989c492d"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1099,
+    "sha256": "9d787840d69db6b90f340f584abe505c42d03aa398727451afafb6f854d7f331"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1079,
+    "sha256": "bd384eb9b67f3d6057ac6bf7c117834a3c637559b8735aaf8b27c76c89399c20"
+  },
+  {
+    "path": "NOTICE.md",
+    "bytes": 1018,
+    "sha256": "3b6fd861d268ee61d79f7b5d9c653b87d072414d7fd587ba82e6f0c553258d42"
+  },
+  {
+    "path": "README.en.md",
+    "bytes": 1317,
+    "sha256": "1e083b9e66c7ef853845cf13ec25f2061ef3868a81e700880c17c2f0df663319"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7267,
+    "sha256": "3f42caeeaa61d45a9e60ec1a94920e78512c39c5822ae488fa0a9817c267059a"
+  },
+  {
+    "path": "RELEASE_FILES.txt",
+    "bytes": 2808,
+    "sha256": "fba373f14842136a2609558c88da7a2cb3ae328e4cebf44b5c973aeecdc5428a"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 953,
+    "sha256": "1489cf55c965204327d61d9550fb795cf7bc34008e52a2edadb2db3633097f37"
+  },
+  {
+    "path": "docs/ARCHITECTUUR.md",
+    "bytes": 3240,
+    "sha256": "6f158e0c074c33e457ccc5e3cb8270dd982bc4a66da5663b0bfe15f682e2f98f"
+  },
+  {
+    "path": "docs/EV-PLANNER.md",
+    "bytes": 3693,
+    "sha256": "afa4809cd0a3c72a6c130f3d327c1b6547c428f7de867b0b807fb8d88da98579"
+  },
+  {
+    "path": "docs/GEGEVENSFORMAAT.md",
+    "bytes": 2402,
+    "sha256": "c0266773ce47c31eacd2c41dd162e105ef292d921b24cfaa884a16bb98e1ad00"
+  },
+  {
+    "path": "docs/INSTALLATIE.md",
+    "bytes": 5934,
+    "sha256": "b93a232fa6be9afad337bcc6d06cd3eb6b26d58b4c3814965e2670a676bf7e4b"
+  },
+  {
+    "path": "docs/VALIDATIE.md",
+    "bytes": 2511,
+    "sha256": "82bb53a19422e74df6167494c4580c3eed258884a4eaba36b0e504835582e104"
+  },
+  {
+    "path": "examples/ev-settings.example.json",
+    "bytes": 1388,
+    "sha256": "c1a042c599954a93d25406c407c947ed57e70d53f135f78387e33bb2e8a14328"
+  },
+  {
+    "path": "examples/planning.example.json",
+    "bytes": 2875,
+    "sha256": "ef5386edcbd9fa6884d0b5ec879202f8a49e6a9d7b3184f15ad1e80df0d81101"
+  },
+  {
+    "path": "examples/settings.example.json",
+    "bytes": 1870,
+    "sha256": "800b7aa2aaa5027815cecf666b7a6183767b06ac81f93b6bfed189a5cfeb696b"
+  },
+  {
+    "path": "home_assistant/optional/ev_planner.yaml",
+    "bytes": 287398,
+    "sha256": "fb7e8bb40d3f3500a0a3b05fb521c3a45f0edf3dbfdb57e9b13c80bc7d066b63"
+  },
+  {
+    "path": "home_assistant/optional/ev_roles.json",
+    "bytes": 4131,
+    "sha256": "68dbc3b0c44f6549c4108569964e95a97a87b5012048bf340651276551b7a289"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy/__init__.py",
+    "bytes": 35,
+    "sha256": "2f5a6482759926d077932d6320fd321fcf258e052f0c87ccd38a07607bb7c647"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_audit_bridge.py",
+    "bytes": 5881,
+    "sha256": "73461294aad48077ccb2d3feadc95064e7fb5740ea1f1f22ff7ea21b6dacfaed"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_bridge.py",
+    "bytes": 22386,
+    "sha256": "727b713ca5a09055db7150ea22d7a18d3b8ce5dda2dc50f7ca102a0aa1b475a4"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_collector_bridge.py",
+    "bytes": 9033,
+    "sha256": "450a68a5830adde8e4a9e8c9a338c13b6241e591ffb7587284f1dfedc57c0610"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_dashboard_bridge.py",
+    "bytes": 9100,
+    "sha256": "1e788ab988d664294ff58ca755abca0dac3a16d406bf0e31ac5ef3fd2b4d80df"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_forecast_ledger_bridge.py",
+    "bytes": 15456,
+    "sha256": "d336c6695f45d1e413bb239a8b40565d2e49d61800aee6de59556947a06de251"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_governor_bridge.py",
+    "bytes": 7652,
+    "sha256": "e488537f9d72d6fbd02c6ad3b5e670a0fb5412046032708ca4c091381141046b"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_learning_bridge.py",
+    "bytes": 6188,
+    "sha256": "2b29266d980462cafb1a4abe2400adc7c70eb745a0be3cc8667590e3bb332185"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_production_bridge.py",
+    "bytes": 13270,
+    "sha256": "b1b80d37e548b8a4f1471362d9750dbac6cfd4dd7f195aa9f3e21fe5586d85d2"
+  },
+  {
+    "path": "home_assistant/pyscript/ai_energy_v11_release_bridge.py",
+    "bytes": 12280,
+    "sha256": "ee56cff36fd7beb86f82dbed908fa591448f28ccc28eb5956a2b200e276bdc24"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/__init__.py",
+    "bytes": 2470,
+    "sha256": "cfa49383bef05c6b9fd81d4e5dfff62ceb1db0623c2607fb69b3c8679ec174c8"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/backfill.py",
+    "bytes": 15018,
+    "sha256": "4f0c61c33c70d05c76652ab7297f00a0c042ce086df7ad73d136ccf2362ff2ec"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/collector.py",
+    "bytes": 17261,
+    "sha256": "c541f7f5e1ee6b61cd79884fb629c0c2696649db71e12fc389e4fa5e96a4f335"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/config.py",
+    "bytes": 7068,
+    "sha256": "ba1ef07c4200d6b892ae45cb0961125f2001384f476fa978d4f4f865028e80fb"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/consensus.py",
+    "bytes": 16553,
+    "sha256": "399fde788868053670d290f49121fa381ec86dad41e966e0a96cfd9d5af6371b"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/dashboard_adapter.py",
+    "bytes": 16934,
+    "sha256": "0584376b5082e5d00ec535343ab49fe1ad49e3105c4925a0cef237c04673139c"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/decision_confidence.py",
+    "bytes": 28901,
+    "sha256": "46b456c6701c70039ca2530c035ef7cdf31335a1ae637ee91be3048daf5e60e6"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/engine.py",
+    "bytes": 4151,
+    "sha256": "292b998becffd517d980c7328dad627bee320720af142b3d175202190cc326dd"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/entsoe.py",
+    "bytes": 18395,
+    "sha256": "d0ff1d520b8f92f411fdf2a95af41e711d4dda3c733de009e957b7c9b293de6a"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/forecast_composer.py",
+    "bytes": 20620,
+    "sha256": "4ae9f7be8a0ed6c9489a47853abc437da132cdf4cfe374c5851209c462ba1e25"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/forecast_evaluator.py",
+    "bytes": 24033,
+    "sha256": "3afea292230d223c727926c05170bbd6659e1a50b71dcdc4a7c2c7c906e71140"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/forecast_ledger.py",
+    "bytes": 21740,
+    "sha256": "95cf9d2c3e3cb97bc7b6dc28ac7acabe53f47bba9e37d2720085090d902ff9c9"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/forward_validator.py",
+    "bytes": 22257,
+    "sha256": "1731b626fbb46c58d9eba6a2f7eb0c951390a12a942f8dad7c49e1e136380a80"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/legacy.py",
+    "bytes": 6262,
+    "sha256": "92431a9d0b6ae1a9b552b808772286f70ce542633969d276b86034f43004f225"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/margin_audit.py",
+    "bytes": 42251,
+    "sha256": "c09a2496abb4932c34b6dd8d48243c4863a2283f2d08852e25cce7a8a6a3c09b"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/market.py",
+    "bytes": 13210,
+    "sha256": "13c27234ecb50b279c46d650bdcf02e11b7b9aff8a2faa882cc8056b19a50f25"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/market_forecaster.py",
+    "bytes": 37301,
+    "sha256": "ff64b73c27614fa285a240f2cc05f23ac0508b3fb92bc8bc8c25e5af84fb9cc4"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/market_review.py",
+    "bytes": 1148,
+    "sha256": "4decd6766e193a707e13b1708b89e957e608de661033507c594e24cfac849a95"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/model_governor.py",
+    "bytes": 22818,
+    "sha256": "445be5169e779f32f7d01e5a9eec12b0e682c43aedd8857faa9a29555c2be395"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/quality.py",
+    "bytes": 7565,
+    "sha256": "133aadeb0cfe8f74cfec5c7fc1f788a3b7bece6f5b3b0185320a5bfa33dc638c"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/retail_learner.py",
+    "bytes": 43462,
+    "sha256": "4466cd737e6c6879a464358947f9c976964c6943ba4c1bbd7f7869b583b64e7a"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/storage.py",
+    "bytes": 3614,
+    "sha256": "1c3016b9a42974e1d9b6431b06459e63de5256b5b4da40d60e7752a06a3ab7c2"
+  },
+  {
+    "path": "home_assistant/pyscript_modules/ai_energy_v11/timeline.py",
+    "bytes": 24216,
+    "sha256": "3ce57829c4cb712e53e85628f8ecf93d0e7e8243cb53ede04bb7042628ccc542"
+  },
+  {
+    "path": "planner/__init__.py",
+    "bytes": 369,
+    "sha256": "694716b078484059bea5c6a6437e80916332f4f833b918e306e71d3bf9485f8a"
+  },
+  {
+    "path": "planner/energy_planner.py",
+    "bytes": 18249,
+    "sha256": "a4197dc9d0b66206eb77a485b69ae113fded3c77be6c9473851f9396fbc8581b"
+  },
+  {
+    "path": "requirements-dev.txt",
+    "bytes": 45,
+    "sha256": "d88aa94d41a142e7ad7c733d2cc43ef73f60df592efb23af6530adfb2007ea21"
+  },
+  {
+    "path": "tests/test_demo_cli.py",
+    "bytes": 1919,
+    "sha256": "b8ad11a58ca7a2a20956c02152bcabec9e75c5a13193a318aed7ef92d85f16b8"
+  },
+  {
+    "path": "tests/test_ev_planner.py",
+    "bytes": 13905,
+    "sha256": "649cb859be3fa21175df99a779f1c913dc4227bf166722de9ddf1f1ce72ea06f"
+  },
+  {
+    "path": "tests/test_forecast_public.py",
+    "bytes": 8738,
+    "sha256": "50413f0a030bcf61f1e126d6a203beeb6f062af0a7a5233cb2c0dd3da03872d7"
+  },
+  {
+    "path": "tests/test_install_release.py",
+    "bytes": 3090,
+    "sha256": "e2728a6188bddab91229b4b1508d5238385147e7e9f600dd0573805f3d9e139b"
+  },
+  {
+    "path": "tests/test_planner.py",
+    "bytes": 15003,
+    "sha256": "e882c008a6f8c6ab0f3c7ad0ba453aa5b9d65b160e0b3218d151509b73752af5"
+  },
+  {
+    "path": "tools/audit_release.py",
+    "bytes": 4834,
+    "sha256": "ec5283ba3ad7cddbeb527d0f0a3c3cd7e7277207fdf6741f682580c6ecd3952d"
+  },
+  {
+    "path": "tools/build_release.py",
+    "bytes": 1663,
+    "sha256": "7f9b2b7de26ab0ed2ff6149269fed361030f04fae659f3b6bce6093ff628345e"
+  },
+  {
+    "path": "tools/demo.py",
+    "bytes": 4832,
+    "sha256": "d683146e4f42c811e2f2c82f774e6497b997809d06e1945f311f5d4a78b673f3"
+  },
+  {
+    "path": "tools/plan.py",
+    "bytes": 1159,
+    "sha256": "bcc5b513cd738dd59b7ac23d3f87a339b90824f77fa1930bb9ad067efe371f75"
+  },
+  {
+    "path": "tools/prepare_install.py",
+    "bytes": 3231,
+    "sha256": "c76525270bd83775c1d65a3e5d71da078ad9fa826a6f845a385fb039a77ba7de"
+  },
+  {
+    "path": "tools/render_ev_planner.py",
+    "bytes": 8236,
+    "sha256": "6415a2aed5f878cd51d97976e606ea4049717239870f718ffd253ef68a6aaf1c"
+  },
+  {
+    "path": "tools/run_tests.py",
+    "bytes": 778,
+    "sha256": "53016f4aa8b31a0b5acee5b7bc3f9dc06894559af484302a1d9cacf3e68e7680"
+  }
+]
