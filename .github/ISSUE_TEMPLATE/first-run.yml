@@ -1,0 +1,38 @@
+name: Eerste ervaring / First run
+description: Deel je ervaring met de demo of installatie / Tell us how your first run went.
+title: "[First run] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nederlands en English zijn allebei welkom. A successful run is useful feedback too.
+        Use fictional examples. Do not attach private Home Assistant backups, credentials, device IDs or household measurements.
+  - type: dropdown
+    id: route
+    attributes:
+      label: Wat probeerde je? / What did you try?
+      options:
+        - Synthetic demo
+        - Home Assistant forecast installation
+        - Advisory planner with my own fictional scenario
+        - Optional EV recipe
+        - Documentation
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versie en omgeving / Version and environment
+      description: Project version or commit, Python and OS; Home Assistant and Pyscript versions if relevant.
+  - type: textarea
+    id: experience
+    attributes:
+      label: Hoe ging het? / How did it go?
+      description: Which step worked, what was unclear, or what did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Voorbeeld of stappen / Example or steps
+      description: Optional fictional scenario or a short error excerpt with private values removed.

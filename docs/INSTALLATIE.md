@@ -41,8 +41,10 @@ Configureer een eventuele sleutel in de betreffende externe HA-integratie.
 
 ## Bronentiteiten invullen
 
-Kopieer `examples/settings.example.json` naar een eigen bestand **buiten**
-de repository. De sectie `entities` beschrijft de rollen. Laat ongebruikte,
+Maak de map `local` en kopieer `examples/settings.example.json` naar
+`local/settings.json`. Deze map is uitgesloten van Git en de release-archieven.
+Een eigen bestand buiten de repository mag ook; gebruik dan dat pad in de
+opdracht hieronder. De sectie `entities` beschrijft de rollen. Laat ongebruikte,
 optionele rollen leeg en vervang gebruikte `sensor.example_*`-waarden door
 werkelijke eigen entiteiten. Geef weerentiteiten apart op in `weather_entities`.
 
@@ -58,7 +60,7 @@ Laat `enabled` voorlopig `false`.
 ## Installatiemap voorbereiden
 
 ```console
-python tools/prepare_install.py --destination install-stage --settings examples/settings.example.json
+python tools/prepare_install.py --destination install-stage --settings local/settings.json
 ```
 
 De bestemming moet nieuw zijn. Het hulpmiddel kopieert alleen de afzonderlijk

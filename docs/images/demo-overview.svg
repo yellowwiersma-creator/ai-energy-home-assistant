@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="710" viewBox="0 0 1100 710" role="img" aria-labelledby="title desc">
+<title id="title">AI Energy: synthetic price forecast and load schedule</title>
+<desc id="desc">First twelve hours of the reproducible tools/demo.py output. Fictional forecast retail prices, in cents per kWh, fall towards 06:00 UTC. Hot water is planned from 05:00 to 07:00, heating from 05:30 to 06:30, and EV charging from 06:30 to 09:50. The shared power limit is 4.6 kW. This is an advisory demonstration, not a Home Assistant dashboard or evidence of savings.</desc>
+<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#157a67" stop-opacity="0.16"/><stop offset="1" stop-color="#157a67" stop-opacity="0.02"/></linearGradient></defs>
+<rect width="1100" height="710" rx="22" fill="#f4f7f5"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#16392f">
+<text x="44" y="59" font-size="34" font-weight="700">AI Energy</text>
+<text x="44" y="91" font-size="20" fill="#52695f">Electricity prices into practical plans.</text>
+<rect x="824" y="30" width="232" height="38" rx="19" fill="#dfece6"/>
+<text x="940" y="55" text-anchor="middle" font-size="16" font-weight="700">SYNTHETIC DEMO · UTC</text>
+
+<rect x="44" y="116" width="320" height="74" rx="12" fill="#fff" stroke="#dde7e0"/><text x="62" y="148" font-size="24" font-weight="700">96 hours</text><text x="62" y="174" font-size="16" fill="#52695f">forecast horizon</text>
+<rect x="390" y="116" width="320" height="74" rx="12" fill="#fff" stroke="#dde7e0"/><text x="408" y="148" font-size="24" font-weight="700">3 tasks</text><text x="408" y="174" font-size="16" fill="#52695f">scheduled before their deadlines</text>
+<rect x="736" y="116" width="320" height="74" rx="12" fill="#fff" stroke="#dde7e0"/><text x="754" y="148" font-size="24" font-weight="700">4.6 kW</text><text x="754" y="174" font-size="16" fill="#52695f">shared power limit</text>
+<text x="44" y="229" font-size="20" font-weight="700">Price forecast</text><text x="44" y="254" font-size="16" fill="#52695f">Fictional retail tariff</text><text x="44" y="276" font-size="16" fill="#52695f">ct/kWh</text>
+<path d="M 220 375.0 H 988" stroke="#dce6df"/><text x="207" y="380.0" text-anchor="end" font-size="15" fill="#52695f">15</text>
+<path d="M 220 315.0 H 988" stroke="#dce6df"/><text x="207" y="320.0" text-anchor="end" font-size="15" fill="#52695f">17</text>
+<path d="M 220 255.0 H 988" stroke="#dce6df"/><text x="207" y="260.0" text-anchor="end" font-size="15" fill="#52695f">19</text>
+<path d="M 220 195.0 H 988" stroke="#dce6df"/><text x="207" y="200.0" text-anchor="end" font-size="15" fill="#52695f">21</text>
+<path d="M 220.00 231.00 L 236.00 239.24 L 252.00 247.45 L 268.00 255.58 L 284.00 263.61 L 300.00 271.50 L 316.00 279.22 L 332.00 286.73 L 348.00 294.00 L 364.00 301.00 L 380.00 307.70 L 396.00 314.08 L 412.00 320.09 L 428.00 325.73 L 444.00 330.96 L 460.00 335.77 L 476.00 340.12 L 492.00 344.01 L 508.00 347.41 L 524.00 350.31 L 540.00 352.71 L 556.00 354.58 L 572.00 355.92 L 588.00 356.73 L 604.00 357.00 L 620.00 356.73 L 636.00 355.92 L 652.00 354.58 L 668.00 352.71 L 684.00 350.31 L 700.00 347.41 L 716.00 344.01 L 732.00 340.12 L 748.00 335.77 L 764.00 330.96 L 780.00 325.73 L 796.00 320.09 L 812.00 314.08 L 828.00 307.70 L 844.00 301.00 L 860.00 294.00 L 876.00 286.73 L 892.00 279.22 L 908.00 271.50 L 924.00 263.61 L 940.00 255.58 L 956.00 247.45 L 972.00 239.24 L 988.00 231.00 L 988 375 L 220 375 Z" fill="url(#area)"/><path d="M 220.00 231.00 L 236.00 239.24 L 252.00 247.45 L 268.00 255.58 L 284.00 263.61 L 300.00 271.50 L 316.00 279.22 L 332.00 286.73 L 348.00 294.00 L 364.00 301.00 L 380.00 307.70 L 396.00 314.08 L 412.00 320.09 L 428.00 325.73 L 444.00 330.96 L 460.00 335.77 L 476.00 340.12 L 492.00 344.01 L 508.00 347.41 L 524.00 350.31 L 540.00 352.71 L 556.00 354.58 L 572.00 355.92 L 588.00 356.73 L 604.00 357.00 L 620.00 356.73 L 636.00 355.92 L 652.00 354.58 L 668.00 352.71 L 684.00 350.31 L 700.00 347.41 L 716.00 344.01 L 732.00 340.12 L 748.00 335.77 L 764.00 330.96 L 780.00 325.73 L 796.00 320.09 L 812.00 314.08 L 828.00 307.70 L 844.00 301.00 L 860.00 294.00 L 876.00 286.73 L 892.00 279.22 L 908.00 271.50 L 924.00 263.61 L 940.00 255.58 L 956.00 247.45 L 972.00 239.24 L 988.00 231.00" fill="none" stroke="#157a67" stroke-width="4" stroke-linejoin="round"/>
+<text x="220" y="402" text-anchor="middle" font-size="16" fill="#52695f">00:00</text>
+<text x="348" y="402" text-anchor="middle" font-size="16" fill="#52695f">02:00</text>
+<text x="476" y="402" text-anchor="middle" font-size="16" fill="#52695f">04:00</text>
+<text x="604" y="402" text-anchor="middle" font-size="16" fill="#52695f">06:00</text>
+<text x="732" y="402" text-anchor="middle" font-size="16" fill="#52695f">08:00</text>
+<text x="860" y="402" text-anchor="middle" font-size="16" fill="#52695f">10:00</text>
+<text x="988" y="402" text-anchor="middle" font-size="16" fill="#52695f">12:00</text>
+<path d="M 44 426 H 1056" stroke="#dce6df"/>
+<text x="44" y="470" font-size="20" font-weight="700">Hot water</text><text x="44" y="494" font-size="16" fill="#52695f">05:00–07:00</text>
+<rect x="220" y="454" width="768" height="36" rx="8" fill="#e7ede9"/><rect x="540.00" y="454" width="128.00" height="36" rx="8" fill="#147c70"/>
+<path d="M 668.00 449 V 496" stroke="#37574c" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="1056" y="478" text-anchor="end" font-size="16" fill="#37574c">2 kWh</text>
+<text x="44" y="532" font-size="20" font-weight="700">Heating</text><text x="44" y="556" font-size="16" fill="#52695f">05:30–06:30</text>
+<rect x="220" y="516" width="768" height="36" rx="8" fill="#e7ede9"/><rect x="572.00" y="516" width="64.00" height="36" rx="8" fill="#ab681e"/>
+<path d="M 796.00 511 V 558" stroke="#37574c" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="1056" y="540" text-anchor="end" font-size="16" fill="#37574c">1.5 kWh</text>
+<text x="44" y="594" font-size="20" font-weight="700">EV charging</text><text x="44" y="618" font-size="16" fill="#52695f">06:30–09:50</text>
+<rect x="220" y="578" width="768" height="36" rx="8" fill="#e7ede9"/><rect x="636.00" y="578" width="213.33" height="36" rx="8" fill="#355ec5"/>
+<path d="M 860.00 573 V 620" stroke="#37574c" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="1056" y="602" text-anchor="end" font-size="16" fill="#37574c">12 kWh</text>
+<path d="M 44 646 H 1056" stroke="#dce6df"/>
+<text x="44" y="674" font-size="16" fill="#52695f">tools/demo.py output · first 12 of 96 hours · dashed marks = deadlines</text>
+<text x="1056" y="674" text-anchor="end" font-size="16" font-weight="700" fill="#52695f">Advisory only</text>
+</g></svg>

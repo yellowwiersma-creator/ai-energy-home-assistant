@@ -5,6 +5,11 @@
     "sha256": "93699a1108fd9da226b06f84ee12e317f4ea4d2f18a8fd05260443fd1bf2faef"
   },
   {
+    "path": ".github/ISSUE_TEMPLATE/first-run.yml",
+    "bytes": 1411,
+    "sha256": "263fcb787bf5b4b7c1884a0a3b63c9e16f258c6fb02a7999d2f586ca54d1556d"
+  },
+  {
     "path": ".github/workflows/tests.yml",
     "bytes": 667,
     "sha256": "6c60a161f25fe34a56190397aca7990cab0b4ddd7aade4b46943fd6eb8162e55"
@@ -36,18 +41,18 @@
   },
   {
     "path": "README.en.md",
-    "bytes": 1317,
-    "sha256": "1e083b9e66c7ef853845cf13ec25f2061ef3868a81e700880c17c2f0df663319"
+    "bytes": 7212,
+    "sha256": "284e5720b61c6ca26f94396b266ace196ae00258fef1ae6af12f387ce8d9dfa3"
   },
   {
     "path": "README.md",
-    "bytes": 7267,
-    "sha256": "3f42caeeaa61d45a9e60ec1a94920e78512c39c5822ae488fa0a9817c267059a"
+    "bytes": 9546,
+    "sha256": "232ab8251437188ae770291608f3ed95c40c645b881bb5a0e07711dcf7f86c0f"
   },
   {
     "path": "RELEASE_FILES.txt",
-    "bytes": 2808,
-    "sha256": "fba373f14842136a2609558c88da7a2cb3ae328e4cebf44b5c973aeecdc5428a"
+    "bytes": 2875,
+    "sha256": "c63e80e851a584650e1ca2e387378ebd328473a2adf134bcd07d1ef8ca3e21f3"
   },
   {
     "path": "SECURITY.md",
@@ -71,13 +76,18 @@
   },
   {
     "path": "docs/INSTALLATIE.md",
-    "bytes": 5934,
-    "sha256": "b93a232fa6be9afad337bcc6d06cd3eb6b26d58b4c3814965e2670a676bf7e4b"
+    "bytes": 6076,
+    "sha256": "ad5567f18d52608c731eaa42b03d11f33d86811fd0517a885f5bc71df5f32c99"
   },
   {
     "path": "docs/VALIDATIE.md",
     "bytes": 2511,
     "sha256": "82bb53a19422e74df6167494c4580c3eed258884a4eaba36b0e504835582e104"
+  },
+  {
+    "path": "docs/images/demo-overview.svg",
+    "bytes": 6726,
+    "sha256": "ca5024976d587fdb5feda5d2ce79c194fda76780978244c5044b52eea56ec925"
   },
   {
     "path": "examples/ev-settings.example.json",

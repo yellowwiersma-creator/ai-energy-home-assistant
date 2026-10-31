@@ -1,5 +1,6 @@
 # Individually reviewed publication files. Review additions manually.
 .gitattributes
+.github/ISSUE_TEMPLATE/first-run.yml
 .github/workflows/tests.yml
 .gitignore
 CHANGELOG.md
@@ -15,6 +16,7 @@ docs/EV-PLANNER.md
 docs/GEGEVENSFORMAAT.md
 docs/INSTALLATIE.md
 docs/VALIDATIE.md
+docs/images/demo-overview.svg
 examples/ev-settings.example.json
 examples/planning.example.json
 examples/settings.example.json
